@@ -9,6 +9,8 @@ class book
 	friend ostream& operator<<(ostream&, const book&);
 	friend class adaptee;
 	friend class adaptee2;
+	friend class adaptee3;
+	friend class adaptee4;
 	friend int sumTree(treeNodeTP*& tree);
 	friend int max(treeNodeTP*& tree, int& i, treeNodeTP*& temp);
 	friend int min(treeNodeTP*& tree, int& i, treeNodeTP*& temp);
@@ -36,6 +38,7 @@ public:
 		bookName =  new string(b) ;		authors = new string(a);		price = p;
 	}
 
+	
 	
 	
 };

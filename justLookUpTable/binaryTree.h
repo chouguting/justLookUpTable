@@ -16,23 +16,11 @@ int compareFun(book a, book b);
 
 
 
-void printFun(book a);
-
-
-void printFun(int a);
-
-void printFun(float a);
 
 
 
 int insertNodeTP(treeNodeTP*& tree, book input);
 
-void inOrderTP(treeNodeTP* tree);
-
-
-void preOrderTP(treeNodeTP* tree);
-
-void postOrderTP(treeNodeTP* tree);
 
 
 

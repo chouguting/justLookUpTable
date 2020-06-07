@@ -21,21 +21,7 @@ int compareFun(book a, book b)
 }
 
 
-void printFun(book a)
-{
-	cout << "書名: " << a.bookName << "\t作者: " << a.authors << "\t價錢: " << a.price << endl;
-}
 
-
-void printFun(int a)
-{
-	cout << a << "  ";
-}
-
-void printFun(float a)
-{
-	cout << a << "  ";
-}
 
 
 int insertNodeTP(treeNodeTP*& tree, book input)
@@ -63,37 +49,7 @@ int insertNodeTP(treeNodeTP*& tree, book input)
 }
 
 
-void inOrderTP(treeNodeTP* tree)
-{
-	if (tree != nullptr)
-	{
-		inOrderTP(tree->leftPtr);
-		printFun(tree->data);
-		inOrderTP(tree->rightPtr);
-	}
-}
 
-
-void preOrderTP(treeNodeTP* tree)
-{
-	if (tree != nullptr)
-	{
-		printFun(tree->data);
-		preOrderTP(tree->leftPtr);
-		preOrderTP(tree->rightPtr);
-	}
-}
-
-
-void postOrderTP(treeNodeTP* tree)
-{
-	if (tree != nullptr)
-	{
-		postOrderTP(tree->leftPtr);
-		postOrderTP(tree->rightPtr);
-		printFun(tree->data);
-	}
-}
 
 
 void reConnect(treeNodeTP*& tree, treeNodeTP*& connectPtr)
