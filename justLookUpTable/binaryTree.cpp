@@ -207,8 +207,8 @@ void deleteTreeALL(treeNodeTP* node)
 {
 	if (node == NULL) return;
 
-	deleteTree(node->leftPtr);
-	deleteTree(node->rightPtr);
+	deleteTreeALL(node->leftPtr);
+	deleteTreeALL(node->rightPtr);
 
 	//cout << "\n Deleting node: " << node->data;
 	free(node);

@@ -10,7 +10,7 @@ void test(LookUpTable* ptr);
 void main()
 {
 	LookUpTable* ptr;
-	
+	/*
 	// Adaptee 1
 	ptr = new 	adapter_class;
 	test(ptr);
@@ -24,7 +24,7 @@ void main()
 	delete ptr;
 
 	system("pause");
-	system("cls");
+	system("cls");*/
 
 	// Adaptee 2
 	ptr = new 	adapter_class2;

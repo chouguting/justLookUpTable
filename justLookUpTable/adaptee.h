@@ -138,12 +138,12 @@ public:
 	//失敗 指標ptr設成0
 };
 
+//TODO: YAYUN 
 
 class adaptee2
 {
 private:
 	treeNodeTP* rootNode = nullptr;
-
 	//TODO
 public:
 	void add(const book value, int& result)
@@ -163,7 +163,7 @@ public:
 	{
 		book temp;
 		temp.assign(bookName, "0", 371);
-		ptr = &(locateNode(rootNode,temp)->data);
+ 		ptr = &(locateNode(rootNode,temp)->data);
 	}
 
 	void find(const char* bookName, const char* authors, book*& ptr)

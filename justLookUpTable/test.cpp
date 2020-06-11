@@ -101,7 +101,7 @@ void test(LookUpTable* ptr)
 
 	cout << "Test find" << endl;
 
-	if (vptr = ptr->find("輕鬆搞定Google雲端技術：Maps.Android.App Engine.Cloud SQL與電子商務API實例解析"
+	if (vptr = ptr->find("精通光學辨識技術：應用ABBYY FineReader 11 OCR"
 	))
 		cout << "成功 " << *vptr << endl; // 成功  
 	else

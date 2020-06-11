@@ -37,6 +37,7 @@ int deleteNodeTP(treeNodeTP*& treePtr, book keyToDelete);
 
 
 void deleteTree(treeNodeTP*& node);
+void deleteTreeALL(treeNodeTP* node);
 
 int sumTree(treeNodeTP*& tree);
 
